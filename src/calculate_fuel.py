@@ -1,3 +1,5 @@
 def calculate_fuel(distance):
-  # Type your code
-  return
+  if distance < 10:
+    return 100
+  else:
+    return (distance*10)
