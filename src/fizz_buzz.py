@@ -1,10 +1,11 @@
 def fizz_buzz(param):
-  if param % 3 == 0 :
-    return "Fizz"
-  elif param % 5 == 0:
-    return "Buzz"
-  elif param % 3 == 0 and param % 5 == 0:
-    return "FizzBuzz"
+  if param % 3 == 0 and param % 5 == 0 :
+    result = "FizzBuzz"
+  elif param % 3 == 0:
+    result = "Fizz"
+  elif param % 5 ==0:
+    result = "Buzz"
   else:
-    return param
+    result = str(param)
+  return result
 
