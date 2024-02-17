@@ -3,7 +3,7 @@ def mean(number):
   total = 0
   for n in string:
     total += int(n)
-    count = string.count(n)
+    count = len(string)
   return total/count
-
+print(mean(12345))
 
